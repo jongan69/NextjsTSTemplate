@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "fix": "npx @next/codemod new-link . --force",
     "dev": "next",
     "build": "next build",
     "start": "next start",
